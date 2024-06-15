@@ -1,4 +1,5 @@
 let l = []
+let res = document.getElementById('res')
         
         function analizador() {
             for(let c=1;c<=3;c++) {
@@ -16,6 +17,12 @@ let l = []
 
                 let angC = (180*Math.acos((l[3]**2 + l[2]**2 - l[1]**2)/(2*l[3]*l[2])))/Math.PI
 
+                for(let c = 1;c<=7;c++) {
+                    let p = document.createElement('p')
+                    res.appendChild(p)
+                }
+
+                
             }
         }
         
