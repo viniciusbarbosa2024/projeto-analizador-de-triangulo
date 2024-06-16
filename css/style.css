@@ -6,9 +6,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
 }
+
 main {
     background-color: #fff;
     padding: 20px;
@@ -16,6 +16,11 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
+main img {
+    margin-bottom: 60px;
+}
+
 input[type="number"] {
     margin: 10px 0;
     padding: 10px;
