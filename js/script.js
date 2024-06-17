@@ -74,3 +74,15 @@ let res = document.getElementById('res')
             }
 
         }
+
+        /* 
+            Para um projeto completo ainda faltaria diversas coisas,como:
+
+            . Validações dos inputs
+            . Personalização do caso "triângulo não existe"
+            . Limpeza dos inputs pós análise dos valores
+
+            e etc.
+
+            Tais pontos não foram explorados por fugirem do intuito principal do projeto que é a prática do uso do objeto Math
+        */
