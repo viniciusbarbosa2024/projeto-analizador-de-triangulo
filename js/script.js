@@ -1,7 +1,7 @@
 let l = []
 let res = document.getElementById('res')
         
-        function analizador() {
+        function analisador() {
             for(let c=1;c<=3;c++) {
                 l[c] = Number(document.getElementById(`lado${c}`).value)
             } 
